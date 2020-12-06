@@ -10,7 +10,7 @@ for num in numArr:
     elif num > second:
         second = num
 
-multiple = int(M / (K + 1)) * K
+multiple = int(M / (K + 1)) * K + M % (K+1)
 result = multiple * first + (M - multiple) * second
 
 print(result)

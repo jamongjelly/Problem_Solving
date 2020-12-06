@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 
-	int multiple = M / (K + 1) * K;
+	int multiple = M / (K + 1) * K + M % (K+1);
 	int result = multiple * first + (M - multiple) * second;
 
 	cout << result << endl;
