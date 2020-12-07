@@ -22,8 +22,8 @@ int main(void)
 		}
 	}
 
-	int multiple = M / (K + 1) * K + M % (K+1);
-	int result = multiple * first + (M - multiple) * second;
+	int secondCount = M / (K + 1);
+	int result = (M - secondCount) * first + secondCount * second;
 
 	cout << result << endl;
 	return 0;
