@@ -16,8 +16,8 @@ function largeNumber() {
         const [N, M, K]: number[] = input[0];
         const [first, second]: number[] = getFirstSecondMax();
 
-        let multiple = Math.floor(M / (K + 1)) * K + (M % (K + 1));
-        let result = multiple * first + (M - multiple) * second;
+        let secondCount = Math.floor(M / (K + 1));
+        let result = (M - secondCount) * first + secondCount * second;
 
         console.log(result);
     }
