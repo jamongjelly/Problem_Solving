@@ -24,8 +24,8 @@ public class LargeNumber {
             }
         }
 
-        int multiple = M / (K + 1) * K + M % (K+1);
-        int result = multiple * max[0] + (M - multiple) * max[1];
+        int secondCount = M / (K + 1);
+        int result = (M - secondCount) * max[0] + secondCount * max[1];
         
         System.out.println(result);
         br.close();
