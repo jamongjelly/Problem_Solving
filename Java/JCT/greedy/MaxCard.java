@@ -45,7 +45,7 @@ public class MaxCard {
     }
 
     private static int min(int[] arr) {
-        int minVal = 100;
+        int minVal = 10001;
         for (int num : arr) {
             if (minVal > num) {
                 minVal = num;

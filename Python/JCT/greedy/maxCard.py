@@ -1,18 +1,18 @@
 N, M = map(int, input().split(' '))
 
 def max(list):
-    maxVal = 1
+    max_value = 1
     for num in list:
-        if (maxVal < num):
-            maxVal = num
-    return maxVal
+        if (max_value < num):
+            max_value = num
+    return max_value
 
 def min(list):
-    minVal = 100
+    min_value = 10001
     for num in list:
-        if (minVal > num):
-            minVal = num
-    return minVal
+        if (min_value > num):
+            min_value = num
+    return min_value
 
 minArr = []
 for i in range(0, N):
