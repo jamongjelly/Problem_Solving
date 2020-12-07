@@ -2,13 +2,13 @@ function largeNumber() {
     const readline = require('readline');
     const { stdin, stdout } = process;
 
-    let input = [];
+    let input: number[][] = [];
     const rl = readline.createInterface({
         input: stdin,
         output: stdout,
     });
-    rl.on('line', (line) => {
-        const numbers = line.split(' ').map((num) => Number(num));
+    rl.on('line', (line: string) => {
+        const numbers: number[] = line.split(' ').map((num) => Number(num));
         input.push(numbers);
     }).on('close', solution);
 

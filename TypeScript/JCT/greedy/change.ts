@@ -7,7 +7,7 @@ function change() {
         input: stdin,
         output: stdout,
     });
-    rl.on('line', (line) => {
+    rl.on('line', (line: string) => {
         input = parseInt(line);
     }).on('close', solution);
 
