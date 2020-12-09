@@ -2,7 +2,7 @@ function largeNumber() {
     const readline = require('readline');
     const { stdin, stdout } = process;
 
-    let input: number[][] = [];
+    const input: number[][] = [];
     const rl = readline.createInterface({
         input: stdin,
         output: stdout,

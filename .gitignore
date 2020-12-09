@@ -3,5 +3,6 @@ TypeScript/node_modules/
 TypeScript/package.json
 TypeScript/tsconfig.json
 TypeScript/yarn.lock
+TypeScript/src/
 Java/.idea/
 Java/out/
