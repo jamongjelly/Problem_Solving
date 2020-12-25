@@ -1,8 +1,11 @@
 # IDE 폴더 제외
+Java/.idea/
+Java/out/
+Java/JCT/Tests.Java
+Java/JCT/Util.java
+Python/test.py
 TypeScript/node_modules/
 TypeScript/package.json
 TypeScript/tsconfig.json
 TypeScript/yarn.lock
 TypeScript/src/
-Java/.idea/
-Java/out/
